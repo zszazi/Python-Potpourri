@@ -140,3 +140,4 @@ cython_debug/
 
 #VIRTUAL ENV IGNORE
 Find-International-Space-Station/iss/*
+ToDo-WebApp/todoEnv/*

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- theme borrowed from https://hackerthemes.com/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" ontent="ie-edge">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/styles.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/hackerthemes-neon-glow/css/bootstrap4-neon-glow.min.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Swanky and Moo Moo' rel='stylesheet'>
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+    <style>
+        zszazi {
+            font-family: 'Swanky and Moo Moo';font-size: 22px;
+        }
+    </style>
+    {% block head %}{% endblock %}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="hal-9000 d-block"></span>
+        <a class="navbar-brand" href="#!">2Do by zszazi</a>
+    </nav>
+    <br>
+</head>
+<body>
+<div class= "container-fluid" style="width:100%">
+    <div class="jumbotron">
+        <h1 class="display-1"><strong>2Do App</strong></h1>
+        <h5 class="display-4">Simple App to note down the ToDo Tasks</h5>
+        <zszazi>by zszazi</zszazi>
+    </div>
+    <div class="progress">
+        <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100"
+          aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    {% block body %}{% endblock %} 
+</div>   
+</body>
+</html>

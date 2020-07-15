@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+<title>2Do Master</title>
+{% block head %}
+{% endblock %}
+{% block body %}
+<h1 class="display-4">Update your Task</h1>
+<form action="/update/{{task.id}}" method ="POST">
+    <input type="text" class="form-control" name="content" id="content" value= "{{task.todo_task}}" aria-describedby="basic-addon2">
+    <input type="submit" button class="btn btn-block btn-outline-primary" type="button" name="task_method" value="update"></button>
+</form>
+{% endblock %}
