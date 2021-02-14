@@ -9,7 +9,7 @@ Used flask , sqlalchemy(sqliteDB) , bootstrap theme from hackerthemes.com
 ## Screenshots
 
 
-![Alt text](./screenshots/todo_1.png?raw=true)
+![Alt text](./screenshots/Todo_1.png?raw=true)
 
 ![Alt text](./screenshots/todo_2.png?raw=true)
 
