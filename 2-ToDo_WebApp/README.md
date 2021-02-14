@@ -10,7 +10,6 @@ Used flask , sqlalchemy(sqliteDB) , bootstrap theme from hackerthemes.com
 
 ![Alt text](./screenshots/todo_1.png?raw=true)
 
-
 ![Alt text](./screenshots/todo_2.png?raw=true)
 
 ![Alt text](./screenshots/todo_3.png?raw=true)
